@@ -1,2 +1,2 @@
 # monde_croche
-Site monde croche
+This is the website hosting the Monde croche world
