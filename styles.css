@@ -2,7 +2,6 @@
     font-family: "Times New Roman",sans-serif;
     margin-left: 80px;
     margin-right: 80px;
-    text-align: center;
     background-color: #F2EBBC;
 }
 
@@ -16,7 +15,6 @@ h2 {
 
 h3 {
     font-size: 28px;
-    text-align: center;
 }
 
 p {
@@ -27,7 +25,20 @@ p {
     font-size: 24px;
 }
 
+.list_croche {
+    list-style-image: url("images/icons/croche_reduced.png");
+    margin-left: 30; margin-right: 0; padding: 0; margin-bottom: 10px
+    text-align: start;
+    font-size: 22px;
+}
+
+ul li {
+    text-align: start;
+    margin-bottom: 10px;
+}
+
 .retour_index {
     font-weight: bold;
     text-align: center;
+    
 }
