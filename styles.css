@@ -24,6 +24,10 @@ p {
     font-size: 24px;
 }
 
+a {
+    margin-left: 0px; margin-right: 0px;
+}
+
 .list_croche {
     list-style-image: url("images/icons/croche_reduced.png");
     margin-left: 30; margin-right: 10; margin-top: 10px; margin-bottom: 50px; padding: 0;
@@ -44,4 +48,20 @@ ul li {
 strong {
     font-weight: bold;
     margin-left: 0px; margin-right: 0px;
+}
+
+.carte_ville {
+    width: 75%
+}
+
+#carte_hampe_pointe {
+    width: 65%;
+    margin-left: 560px;
+    display: block;
+    background-color: black;
+}
+
+#carte_regions_centrales {
+    width: 80%;
+    display: block;
 }
