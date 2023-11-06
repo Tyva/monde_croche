@@ -26,6 +26,7 @@ p {
 
 a {
     margin-left: 0px; margin-right: 0px;
+    color:  brown;
 }
 
 .list_croche {
@@ -33,6 +34,18 @@ a {
     margin-left: 30; margin-right: 10; margin-top: 10px; margin-bottom: 50px; padding: 0;
     text-align: start;
     font-size: 22px;
+}
+
+.list_croche_aligned {
+        list-style-image: url("images/icons/croche_reduced.png");
+        margin-left: 30; margin-right: 10; margin-top: 10px; margin-bottom: 50px; padding: 0;
+        text-align: start;
+        font-size: 22px;
+        list-style-type: disc;
+        -webkit-columns: 3;
+        -moz-columns: 3;
+        columns: 3;
+        list-style-position: inside;//this is important addition
 }
 
 ul li {
