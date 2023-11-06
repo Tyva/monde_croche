@@ -1,6 +1,6 @@
 * {
     font-family: "Times New Roman",sans-serif;
-    margin-left: 80px; margin-right: 80px;
+    margin-left: 70px; margin-right: 70px;
     background-color: #F2EBBC;
 }
 
@@ -45,7 +45,7 @@ a {
         -webkit-columns: 3;
         -moz-columns: 3;
         columns: 3;
-        list-style-position: inside;//this is important addition
+        list-style-position: inside;
 }
 
 ul li {
