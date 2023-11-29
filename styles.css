@@ -83,3 +83,7 @@ strong {
     font-size: 24px;
     font-style: italic;
 }
+
+* {
+    border: 2px solid green
+}
